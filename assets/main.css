@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #f8f8f8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.navList a:hover {
+  background-color: deepskyblue;
+}
+
+.header,
+.logo,
+.navBar,
+.navList,
+.navItem {
+  display: inline-block;
+}
+/* Start Header Section */
+.header {
+  background-color: #0779e1;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo a {
+  color: #fff;
+  font-size: larger;
+  padding: 20px 30px;
+  width: 20%;
+}
+.navBar {
+  width: 79%;
+  text-align: right;
+}
+
+.navItem a {
+  display: inline-block;
+  color: #fff;
+  padding: 20px 30px;
+}
+/* End Header Section */
+/* Start Home Section  */
+.homeSection {
+  position: relative;
+  background-image: url(./image/bg_1.jpg.webp);
+  height: 100vh;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+.homeOsverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background: #111111;
+  z-index: -1;
+}
+
+.home {
+  position: absolute;
+  bottom: 150px;
+  left: 300px;
+}
+.title0 {
+  font-weight: 500;
+  color: #0779e4;
+  background: #fff;
+  border-radius: 4px;
+  padding: 4px 9px;
+  width: 100px;
+}
+
+.title1 {
+  font-weight: 400;
+  color: #fff;
+  font-size: 60px;
+}
+
+.title2 {
+  color: bisque;
+  font-size: medium;
+}
+
+.btn1 {
+  width: 130px;
+  font-size: 12px;
+  font-weight: 700;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #0779e4;
+  border: none;
+  margin-right: 10px;
+}
+.btn1 a {
+  display: inline-block;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 17px 5px;
+}
+
+.btn2 {
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+}
+
+.btn2 a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  color: #0779e4;
+  padding: 17px 5px;
+}
+
+.social {
+  color: #fff;
+  padding: 20px 10px;
+}
+/* End Home Section */
+/* Start About Section */
+.image img {
+  width: 370px;
+  height: 500px;
+  background-size: cover;
+  left: 200px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.aboutBtn {
+  width: 90px;
+  height: 30px;
+  background-color: #0779e1;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 900;
+}
+.text {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.title3,
+.title5 {
+  font-size: xx-large;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.title4,
+.title6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: gray;
+  font-weight: bold;
+}
+
+.figure1 {
+  left: 235px;
+  width: 30px;
+  height: 120px;
+  background-color: #89c4fb;
+  margin-top: 200px;
+  position: absolute;
+}
+
+.figure2 {
+  left: 235px;
+  width: 30px;
+  height: 120px;
+  background-color: #0779e4;
+  margin-top: 320px;
+  position: absolute;
+}
+/* End About Section  */
+/* Start Services Section */
+.service {
+  font-size: 15px;
+  display: block;
+  margin-top: 250px;
+  margin-left: 700px;
+  color: #0779e4;
+  font-weight: 700;
+}
+
+.title7 {
+  margin-top: 20px;
+  margin-left: 550px;
+  font-weight: 900;
+  color: black;
+  font-size: xx-large;
+}
+/* ?BURA BAXXXXXXXXX */
+.cardBox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.name {
+  color: #0779e4;
+  font-weight: 900;
+}
+.card a {
+  color: #0779e4;
+}
+.cardInfo {
+  color: gray;
+}
+
+.problem {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.contact {
+  color: gray;
+}
+
+.problem a {
+  color: #0779e1;
+  font-weight: bold;
+}
+
+.title8 {
+  color: gray;
+}
+
+.info {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.info_section {
+  background-image: url("./image/bg_3.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  z-index: 0;
+  padding: 96px 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background: #0779e4;
+  z-index: -1;
+}
+.customersNumber {
+  display: flex;
+}
+
+.customers {
+  margin-left: 200px;
+  display: flex;
+}
+
+.information {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.designText {
+  color: #fff;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.designText1 {
+  color: #fff;
+  font-weight: bolder;
+}
+/* End Services Section  */
+/* Start Portfolio Section */
+
+/* .portfolio {
+  font-size: 15px;
+  display: block;
+  margin-top: 250px;
+  margin-left: 700px;
+  color: #0779e4;
+  font-weight: 700;
+}
+
+.portfolio2 {
+  font-size: 45px;
+  display: block;
+  margin-left: 600px;
+} */
+
+/* Start Footer Section  */
+
+footer{
+  height: 400px;
+}
+
+.social1,
+.srvcs,
+.contact{
+  display: inline-block;
+  /* height: 350px; */
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.social1 a{
+  color: #000;
+  font-weight:bold;
+}
+
+.title9{
+  color: gray;
+}
+
+.end{
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* End Footer Section */
